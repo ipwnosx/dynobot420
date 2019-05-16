@@ -1,0 +1,26 @@
+{
+	"example-js": {
+		"type": "js",
+		"name": "exampleJs",
+		"path": "src/js-modules/example-js.js",
+		"channel": 0,
+		"interval": 10000,
+		"running": false
+	},
+	"example-py": {
+		"type": "python",
+		"name": "examplePy",
+		"path": "src/py-modules/example-python-hook.py",
+		"channel": 0,
+		"interval": 5000,
+		"running": false
+	},
+	"currencyUpdate": {
+		"type": "js",
+		"name": "currencies",
+		"path": "src/js-modules/currencyModule/priceUpdates.js",
+		"channel": 0,
+		"interval": 7200000,
+		"running": false
+	}
+}
